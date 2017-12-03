@@ -98,6 +98,13 @@ textarea {
    ========================================================================== */
 
 html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+
+html {
   font-family: "MuseoSlab500", Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -106,15 +113,59 @@ html {
   background-color: #ece9e9;
   text-align: right;
   color: #ec146b;
+  height: 55px;
 }
 
-.nav-bar {
+.banner li {
+  display: inline-block;
+}
+
+.banner a {
+  text-decoration: none;
+  color: #ec146b;
+}
+
+header {
   background-color: #ec146b;
   color: #fff;
+  height: 80px;
+  margin: 0;
+}
+
+.header-logo {
+  float: left;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav ul li {
+  display: inline;
+}
+
+.main-nav button {
+  float: right;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.intro h4 {
+  color: #ec146b;
 }
 
 .call-for-volunteers {
   text-align: right;
+}
+
+.call-for-volunteers h2 {
+  color: #00a8e1;
+}
+
+button {
+
 }
 
 .social {
