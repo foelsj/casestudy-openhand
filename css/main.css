@@ -97,18 +97,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  font-family: "MuseoSlab500", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
 
+.banner {
+  background-color: #ece9e9;
+  text-align: right;
+  color: #ec146b;
+}
 
+.nav-bar {
+  background-color: #ec146b;
+  color: #fff;
+}
 
+.call-for-volunteers {
+  text-align: right;
+}
 
+.social {
+  color: #424dae;
+}
 
-
-
-
-
-
-
-
+footer {
+  background-color: #635d58;
+  color: #fff;
+  text-align: center;
+}
 
 
 
