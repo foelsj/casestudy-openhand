@@ -109,6 +109,10 @@ html {
   text-align: center;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 .banner {
   background-color: #ece9e9;
   text-align: right;
@@ -152,6 +156,14 @@ header {
   width: 100%;
 }
 
+.circle h3 {
+  font-family: "Thirsty Script", "Times New Roman", Georgia, serif;
+}
+
+.circle p {
+  font-family: "MuseoSlab500", Arial, Helvetica, sans-serif;
+}
+
 .intro h4 {
   color: #ec146b;
 }
@@ -164,11 +176,18 @@ header {
   color: #00a8e1;
 }
 
-button {
+.volunteer-info {
+  width: 50%;
+  float: left;
+}
 
+.volunteer-photo {
+  width: 50%;
+  float: right;
 }
 
 .social {
+  clear: both;
   color: #424dae;
 }
 
