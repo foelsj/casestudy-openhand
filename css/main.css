@@ -97,6 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ @font-face {
+     font-family: "Ultramagnetic_Regular";
+     src: url(ultramagnetic_regular.ttf);
+ }
+
 html {
  box-sizing: border-box;
 }
@@ -105,7 +110,7 @@ html {
 }
 
 html {
-  font-family: "MuseoSlab500", Arial, Helvetica, sans-serif;
+  font-family: "Ultramagnetic_Regular", Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -118,6 +123,10 @@ h2 {
   text-align: right;
   color: #ec146b;
   height: 55px;
+}
+
+.banner ul {
+  margin: 0;
 }
 
 .banner li {
@@ -140,20 +149,34 @@ header {
   float: left;
 }
 
+.main-nav {
+  float: right;
+}
+
 .main-nav ul {
   list-style: none;
+  margin: 0;
 }
 
 .main-nav ul li {
-  display: inline;
+  display: inline-block;
+  text-transform: uppercase;
 }
 
-.main-nav button {
-  float: right;
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 60px;
+  background: #fff;
 }
 
 .hero img {
   width: 100%;
+  margin: 0;
 }
 
 .circle h3 {
