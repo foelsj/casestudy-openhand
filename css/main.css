@@ -216,6 +216,7 @@ header {
   text-align: right;
   color: #635d58;
   font-size: 1.2em;
+  padding: 0px 15px;
 }
 
 .call-for-volunteers h2 {
@@ -266,40 +267,55 @@ header {
   color: #424dae;
 }
 
+.social h4 {
+  font-size: 2em;
+}
+
 footer {
   background-color: #635d58;
   color: #fff;
   text-align: center;
   font-family: "Museo_Slab_500";
+  padding: 30px 0px;
+}
+
+.footer-content {
+  padding: 0px 10px;
 }
 
 footer a {
   color: #fff;
 }
 
-footer h4 {
+.footer-section {
+  width: 33%;
+  float: left;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+
+.footer-section h4 {
+  font-size: 27px;
+  line-height: 32px;
+  padding-bottom: 15px;
   border-bottom: 5px solid #504d4a;
+  margin: 0px 0px 7.5px 0px;
 }
 
-.location1 {
-  width: 33%;
-  float: left;
-}
-
-.location2 {
-  width: 33%;
-  float: left;
-}
-
-.get-involved {
-  width: 33%;
-  float: left;
+.footer-section p {
+  font-size: 18px;
+  line-height: 8px;
 }
 
 .social-icons {
   clear: both;
+  margin-bottom: 30px;
 }
 
+.privacy {
+  font-size: 13.5px;
+  margin-bottom: 30px;
+}
 
 
 
