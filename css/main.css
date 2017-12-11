@@ -99,7 +99,7 @@ textarea {
 
  @font-face {
   font-family: "Ultramagnetic_Regular";
-  src: url(ultramagnetic_regular.ttf);
+  src: url(Ultramagnetic_Regular.ttf);
  }
 
  @font-face {
@@ -123,11 +123,11 @@ html {
   font-family: "Ultramagnetic_Regular", Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: 1.2;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 .body-content {
-  max-width: 1170px;
+  max-width: 73.125em;
   margin: auto;
 }
 
@@ -139,8 +139,8 @@ h2 {
   background-color: #ece9e9;
   text-align: right;
   color: #d41b67;
-  height: 55px;
-  font-family: "Museo_Slab_500";
+  height: 3.4375em;
+  font-family: "Museo_Slab_500", Arial, Helvetica, sans-serif;
 }
 
 .banner ul {
@@ -150,9 +150,9 @@ h2 {
 .banner li {
   display: inline-block;
   font-size: 1.2em;
-  margin-left: 15px;
+  margin-left: 0.9375em;
   padding: 3px 0px;
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .banner a {
@@ -163,10 +163,9 @@ h2 {
 header {
   background-color: #d41b67;
   color: #fff;
-  height: 80px;
   margin: 0;
-  font-size: 18px;
-  min-height: 101px;
+  font-size: 1em;
+  min-height: 6.25em;
 }
 
 .header-logo {
@@ -200,7 +199,7 @@ header {
 
 .btn {
   padding: 5px 20px;
-  border-radius: 50px;
+  border-radius: 3.125em;
   background-color: #fff;
 }
 
@@ -223,8 +222,8 @@ header {
   display: inline-block;
   margin: 0px 5px;
   padding: 35px 20px 15px 20px;
-  width: 230px;
-  height: 230px;
+  width: 14.375em;
+  height: 14.375em;
   border: 10px solid #fff;
   border-radius: 140px;
   position: relative;
@@ -247,22 +246,23 @@ header {
 
 .circle h3 {
   font-family: "Thirsty_Script", "Times New Roman", Georgia, serif;
-  font-size: 30px;
-  line-height: 20px;
+  font-size: 1.875em;
+  line-height: 1.25em;
   margin-bottom: 7px;
 }
 
 .circle p {
   font-family: "Museo_Slab_500", Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 1em;
+  line-height: 1.125em;
 }
 
 .intro p.large {
   color: #d41b67;
-  font-size: 27px;
-  line-height: 34px;
-  margin-top: 30px;
+  font-size: 1.5em;
+  line-height: 2.3em;
+  max-width: 550px;
+  margin: 30px auto auto auto;
 }
 
 .call-for-volunteers {
@@ -275,20 +275,20 @@ header {
 
 .call-for-volunteers h2 {
   color: #00a8e1;
-  font-size: 44px;
+  font-size: 2.125em;
   line-height: 44px;
   margin-top: 30px;
 }
 
 .call-for-volunteers h4 {
-  font-size: 27px;
+  font-size: 1.25em;
   line-height: 27px;
   margin-top: 30px;
 }
 
 .call-for-volunteers p {
-  font-family: "Museo_Slab_500";
-  font-size: 18px;
+  font-family: "Museo_Slab_500", Arial, Helvetica, sans-serif;
+  font-size: .875em;
   line-height: 27px;
 }
 
@@ -296,7 +296,7 @@ header {
   color: #58c430;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Museo_Slab_500";
+  font-family: "Museo_Slab_500", Arial, Helvetica, sans-serif;
   padding: 12px;
   border-radius: 50px;
   border: 2px solid #58c430;
@@ -317,7 +317,7 @@ header {
 
 .sponsors {
   clear: both;
-  font-family: "Museo_Slab_500";
+  font-family: "Museo_Slab_500", Arial, Helvetica, sans-serif;
   text-align: center;
   background-color: #635d58;
   color: #fff;
@@ -349,7 +349,7 @@ footer {
   background-color: #635d58;
   color: #fff;
   text-align: center;
-  font-family: "Museo_Slab_500";
+  font-family: "Museo_Slab_500", Arial, Helvetica, sans-serif;
   padding: 60px 0px;
 }
 
@@ -365,11 +365,11 @@ footer a {
   width: 33%;
   float: left;
   padding: 0px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .footer-section h4 {
-  font-size: 27px;
+  font-size: 1.5em;
   line-height: 32px;
   padding-bottom: 15px;
   border-bottom: 5px solid #504d4a;
@@ -377,7 +377,7 @@ footer a {
 }
 
 .footer-section p {
-  font-size: 18px;
+  font-size: 1em;
   line-height: 8px;
 }
 
@@ -387,7 +387,7 @@ footer a {
 }
 
 .social-icon {
-  margin-left: 15px;
+  margin-left: .8em;
 }
 
 .privacy {
