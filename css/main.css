@@ -107,6 +107,11 @@ textarea {
   src: url(Museo_Slab_500_2-webfont.woff);
  }
 
+ @font-face {
+  font-family: "Thirsty_Script";
+  src: url(ThirstyScriptExtraBoldDemo.otf);
+ }
+
 html {
  box-sizing: border-box;
 }
@@ -119,7 +124,11 @@ html {
   text-align: center;
   line-height: 1.2;
   font-size: 18px;
-  padding: 30px 0px;
+}
+
+.body-content {
+  max-width: 1170px;
+  margin: auto;
 }
 
 h2 {
@@ -129,7 +138,7 @@ h2 {
 .banner {
   background-color: #ece9e9;
   text-align: right;
-  color: #ec146b;
+  color: #d41b67;
   height: 55px;
   font-family: "Museo_Slab_500";
 }
@@ -141,25 +150,28 @@ h2 {
 .banner li {
   display: inline-block;
   font-size: 1.2em;
+  margin-left: 15px;
+  padding: 3px 0px;
+  font-size: 18px;
 }
 
 .banner a {
   text-decoration: none;
-  color: #ec146b;
+  color: #d41b67;
 }
 
 header {
-  background-color: #ec146b;
+  background-color: #d41b67;
   color: #fff;
   height: 80px;
   margin: 0;
-  font-size: 1.1em;
-  height: 100px;
+  font-size: 18px;
+  min-height: 101px;
 }
 
 .header-logo {
   float: left;
-  padding: 10px;
+  padding: 5px 40px;
 }
 
 .main-nav {
@@ -187,7 +199,7 @@ header {
 }
 
 .btn {
-  padding: 10px;
+  padding: 5px 20px;
   border-radius: 50px;
   background-color: #fff;
 }
@@ -201,41 +213,86 @@ header {
   margin: 0;
 }
 
+.intro {
+  padding: 125px 0px 30px 0px;
+  text-align: center;
+  display: block;
+}
+
+.circle {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 35px 20px 15px 20px;
+  width: 230px;
+  height: 230px;
+  border: 10px solid #fff;
+  border-radius: 140px;
+  position: relative;
+  text-decoration: none;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.orange {
+  background-color: #f08a1c;
+}
+
+.green {
+  background-color: #58c430;
+}
+
+.blue {
+  background-color: #00a8e1;
+}
+
 .circle h3 {
-  font-family: "Thirsty Script", "Times New Roman", Georgia, serif;
+  font-family: "Thirsty_Script", "Times New Roman", Georgia, serif;
+  font-size: 30px;
+  line-height: 20px;
+  margin-bottom: 7px;
 }
 
 .circle p {
-  font-family: "MuseoSlab500", Arial, Helvetica, sans-serif;
+  font-family: "Museo_Slab_500", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .intro p.large {
-  color: #ec146b;
-  font-size: 1.6em;
+  color: #d41b67;
+  font-size: 27px;
+  line-height: 34px;
+  margin-top: 30px;
 }
 
 .call-for-volunteers {
   text-align: right;
   color: #635d58;
   font-size: 1.2em;
-  padding: 0px 15px;
+  padding: 30px 10px 0px 10px;
+  overflow: auto;
 }
 
 .call-for-volunteers h2 {
   color: #00a8e1;
-  font-size: 2.5em;
+  font-size: 44px;
+  line-height: 44px;
+  margin-top: 30px;
 }
 
 .call-for-volunteers h4 {
-  font-size: 1.4em;
+  font-size: 27px;
+  line-height: 27px;
+  margin-top: 30px;
 }
 
 .call-for-volunteers p {
   font-family: "Museo_Slab_500";
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 27px;
 }
 
-.call-for-volunteers a {
+.green-button {
   color: #58c430;
   text-decoration: none;
   text-transform: uppercase;
@@ -248,11 +305,14 @@ header {
 .volunteer-info {
   width: 50%;
   float: left;
+  padding: 0px 15px;
+  margin-bottom: 30px;
 }
 
 .call-for-volunteers img {
   width: 50%;
   float: right;
+  padding: 0px 15px;
 }
 
 .sponsors {
@@ -262,6 +322,7 @@ header {
   background-color: #635d58;
   color: #fff;
   padding: 30px 0px;
+  max-width: auto;
 }
 
 .sponsors p {
@@ -270,6 +331,10 @@ header {
 
 .sponsor-logo {
   padding: 0px 15px 15px 15px;
+}
+
+.sponsors a {
+  text-decoration: none;
 }
 
 .social {
@@ -286,7 +351,7 @@ footer {
   color: #fff;
   text-align: center;
   font-family: "Museo_Slab_500";
-  padding: 30px 0px;
+  padding: 60px 0px;
 }
 
 .footer-content {
@@ -320,6 +385,10 @@ footer a {
 .social-icons {
   clear: both;
   margin-bottom: 30px;
+}
+
+.social-icon {
+  margin-left: 15px;
 }
 
 .privacy {
